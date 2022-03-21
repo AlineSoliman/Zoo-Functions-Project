@@ -18,15 +18,6 @@ function countEntrants(array) {
 }
 console.log(countEntrants(entrants));
 
-// const resultado1 = countEntrants(entrants);
-// resultado1.filter((element) => {
-//   let result;
-//   if (element.child === resultado1.child) { result = resultado1.child.length * 20.99; }
-//   if (element.adult === resultado1.adult) { result = resultado1.adult.length * 49.99; }
-//   if (element.senior === resultado1.senior) { result = resultado1.senior.length * 24.99; }
-//   return result;
-// });
-
 function calculateEntry(array) {
   if (array === undefined) {
     return 0;
